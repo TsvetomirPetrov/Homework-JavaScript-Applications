@@ -1,0 +1,31 @@
+#left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+#slideshow {
+    width:300px;
+    height:200px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideshow #slideshowWindow {
+    height:200px;
+    position:relative;
+}
+
+#slideshow #slideshowWindow img {
+    width:300px;
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
